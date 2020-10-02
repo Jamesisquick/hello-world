@@ -1,3 +1,12 @@
+def sub_x_y(x, y):
+	return x - y
+
+def testsub_x_y():
+	assert sub_x_y(9, 3) == 6
+	assert sub_x_y(9, 7)  == 2
+
+
+
 
 def add_x_y(x, y):
 	return x + y
